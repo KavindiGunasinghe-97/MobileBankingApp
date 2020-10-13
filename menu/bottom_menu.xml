@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_apply"
+        app:cnb_iconColor="@color/colorPrimary"
+        android:icon="@mipmap/ic_apply"
+        android:title="Apply"
+        />
+    <item
+        android:id="@+id/nav_locate"
+        android:title="Locate"
+        android:icon="@mipmap/ic_locate"
+        app:cnb_iconColor="@color/colorPrimary"
+        />
+    <item
+        android:id="@+id/nav_calc"
+        android:icon="@mipmap/ic_calculator"
+        app:cnb_iconColor="@color/colorPrimary"
+        android:title="Calculator"
+         />
+    <item
+        android:id="@+id/nav_convert"
+        android:title="Convert"
+        android:icon="@mipmap/ic_convert"
+        app:cnb_iconColor="@color/colorPrimary"
+         />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact"
+        android:icon="@mipmap/ic_contact"
+        app:cnb_iconColor="@color/colorPrimary"
+        />
+
+
+</menu>
