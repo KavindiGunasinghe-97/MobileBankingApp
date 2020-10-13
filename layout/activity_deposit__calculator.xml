@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:id="@+id/custom_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/custom_action_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </include>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8.5"
+            android:background="@drawable/normal_background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="850dp"
+                    android:orientation="vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:weightSum="30">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                    </View>
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="358dp"
+                        android:layout_height="154dp"
+                        app:srcCompat="@drawable/rate" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                    </View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textPrimary"
+                            android:text="Deposit Type">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="*"
+                            android:gravity="top"
+                            android:textColor="@color/buttonPrimary"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:padding="5dp">
+
+                        <Spinner
+                            android:id="@+id/sp_depositType"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/textview_border"
+                            android:drawSelectorOnTop="true"
+                            android:dropDownVerticalOffset="0dp"
+                            android:entries="@array/utilityName"
+                            android:popupBackground="@color/colorWhite"
+                            android:spinnerMode="dropdown" />
+
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+
+                    </View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textPrimary"
+                            android:text="Deposit Currency">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="*"
+                            android:gravity="top"
+                            android:textColor="@color/buttonPrimary"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:padding="5dp">
+
+                        <EditText
+                            android:id="@+id/currency"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/textview_border"
+                            android:gravity="center_vertical"
+                            android:hint="LKR  "
+                            android:paddingStart="10dp"
+                            android:textSize="14sp" />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textPrimary"
+                            android:text="Amount">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="*"
+                            android:gravity="top"
+                            android:textColor="@color/buttonPrimary"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <EditText
+                            android:id="@+id/amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/textview_border"
+                            android:gravity="center_vertical"
+                            android:hint="LKR  "
+                            android:paddingStart="10dp"
+                            android:textSize="14sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5">
+
+                        </View>
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/rateCal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Calculate"
+                        android:background="@color/buttonPrimary"/>
+
+                    <TextView
+                        android:id="@+id/intRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="Interest Rate" />
+
+                    <TextView
+                        android:id="@+id/monthVal"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:text="Monthly Amount" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

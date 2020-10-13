@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".bottomnav.ContactFragment">
+
+    <LinearLayout
+        android:id="@+id/custom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/custom_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </include>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/normal_background">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="850dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:orientation="vertical"
+                            android:weightSum="30">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1">
+
+                            </View>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5">
+
+                            </View>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="366dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:text="  Call Us"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="139dp"
+                                android:layout_weight="1.5"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="79dp"
+                                    android:background="@drawable/textview_border"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <TextView
+                                        android:id="@+id/tv_pymentDate"
+                                        android:layout_width="20dp"
+                                        android:layout_height="32dp"
+                                        android:layout_weight="2.5"
+                                        android:gravity="center_vertical"
+                                        android:paddingStart="10dp"
+                                        android:text="Hot Line 0774070057"
+                                        android:textSize="20sp"></TextView>
+
+
+                                    <ImageView
+                                        android:id="@+id/btn_paymentDate"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.5"
+                                        android:padding="5dp"
+                                        android:src="@drawable/call">
+
+                                    </ImageView>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="77dp"
+                                    android:background="@drawable/textview_border"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <TextView
+                                        android:id="@+id/tve"
+                                        android:layout_width="20dp"
+                                        android:layout_height="32dp"
+                                        android:layout_weight="2.5"
+                                        android:gravity="center_vertical"
+                                        android:paddingStart="10dp"
+                                        android:text="Fax           0772740515"
+                                        android:textSize="20sp"></TextView>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_weight="0.5">
+
+                            </View>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="366dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:text="  Mail Us"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5">
+
+                            </View>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="79dp"
+                                android:background="@drawable/textview_border"
+                                android:orientation="horizontal"
+                                android:weightSum="3">
+
+                                <TextView
+                                    android:id="@+id/tv_paymentDate"
+                                    android:layout_width="20dp"
+                                    android:layout_height="32dp"
+                                    android:layout_weight="2.5"
+                                    android:gravity="center_vertical"
+                                    android:paddingStart="10dp"
+                                    android:text="E-mail   cdbinet@gmail.com"
+                                    android:textSize="20sp"></TextView>
+
+
+                                <ImageView
+                                    android:id="@+id/btn_pate"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5"
+                                    android:padding="5dp"
+                                    android:src="@drawable/email">
+
+                                </ImageView>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_weight="0.5">
+
+                            </View>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_weight="1">
+
+                                <TextView
+                                    android:layout_width="393dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:text="  Find Us On"
+                                    android:textColor="@color/textPrimary"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        <View
+                                android:layout_width="match_parent"
+                                android:layout_height="33dp"
+                                android:layout_weight="0.5">
+
+                            </View>
+
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_weight="1">
+
+
+                                <ImageView
+                                    android:id="@+id/imaew"
+                                    android:layout_width="58dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/fb" />
+
+                                <ImageView
+                                    android:id="@+id/imaView"
+                                    android:layout_width="97dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/twitter" />
+
+                                <ImageView
+                                    android:id="@+id/imageew"
+                                    android:layout_width="130dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/insta" />
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="65dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/utube" />
+
+
+                            </LinearLayout>
+                    </LinearLayout>
+                    </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

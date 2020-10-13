@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_background"
+    android:orientation="vertical"
+    tools:context=".bottomnav.NewAccountFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/normal_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:weightSum="26.5">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="General Information">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Account ">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="*"
+                                android:gravity="top"
+                                android:textColor="@color/buttonPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/sp_account"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/textview_border"
+                                android:dropDownVerticalOffset="0dp"
+                                android:popupBackground="@color/colorWhite"
+                                android:spinnerMode="dropdown"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/accountsArray"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_arrow_drop_down"
+                                android:layout_marginLeft="-50dp">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Account Type ">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="*"
+                                android:gravity="top"
+                                android:textColor="@color/buttonPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/sp_accountType"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/textview_border"
+                                android:dropDownVerticalOffset="0dp"
+                                android:popupBackground="@color/colorWhite"
+                                android:spinnerMode="dropdown"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/accountTypes"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_arrow_drop_down"
+                                android:layout_marginLeft="-50dp">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Customer Type ">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="*"
+                                android:gravity="top"
+                                android:textColor="@color/buttonPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/sp_customerType"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/textview_border"
+                                android:dropDownVerticalOffset="0dp"
+                                android:popupBackground="@color/colorWhite"
+                                android:spinnerMode="dropdown"
+                                android:drawSelectorOnTop="true"
+                                android:entries="@array/customerTypes"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_arrow_drop_down"
+                                android:layout_marginLeft="-50dp">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Customer Name ">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="*"
+                                android:gravity="top"
+                                android:textColor="@color/buttonPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/et_customerName"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingStart="10dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:hint="Enter Name"
+                                android:background="@drawable/textview_border" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Monthly Salary / Annual Turnover ">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="*"
+                                android:gravity="top"
+                                android:textColor="@color/buttonPrimary"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/et_monthlySalary"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingStart="10dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:hint="LKR "
+                                android:background="@drawable/textview_border" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textPrimary"
+                                android:text="Remarks ">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:padding="5dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/et_remarks"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:inputType="text|textMultiLine"
+                                android:paddingStart="10dp"
+                                android:textSize="14sp"
+                                android:gravity="center_vertical"
+                                android:hint="Optional"
+                                android:background="@drawable/textview_border" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5">
+
+                        </View>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp">
+
+                            <Button
+                                android:id="@+id/btn_newAccountNext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/button_style_red"
+                                android:textColor="@color/colorWhite"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginEnd="25dp"
+                                android:text="Next"
+                                android:textAllCaps="true"
+                                android:textStyle="bold"
+                                android:textSize="15sp">
+
+                            </Button>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5">
+
+                        </View>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
