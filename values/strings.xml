@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">CDBiNet</string>
+    <string name="tearms_conditions"><u><![CDATA[Tearms & Conditions]]></u></string>
+    <string name="account_details"><u>Account Details</u></string>
+    <string name="payment_details"><u>Payment Details</u></string>
+
+
+    <string-array name="utilityName">
+        <item>Select</item>
+        <item>Dialog Bill</item>
+        <item>SLT Bill</item>
+        <item>Water Bill</item>
+    </string-array>
+
+    <string-array name="accountName">
+        <item>Select</item>
+        <item>Savings Account</item>
+        <item>Debit Account</item>
+    </string-array>
+
+    <string-array name="cards">
+        <item>Select</item>
+        <item>89 2665 7890</item>
+        <item>89 2356 2767</item>
+    </string-array>
+
+    <string-array name="accountsArray">
+        <item>Select</item>
+        <item>Fixed Deposits</item>
+        <item>Hire Purchase</item>
+        <item>Leasing</item>
+        <item>Loans</item>
+        <item>Savings</item>
+    </string-array>
+
+    <string-array name="accountTypes">
+        <item>Select</item>
+        <item>CDB Ranketi</item>
+        <item>CDB Salary Plus</item>
+        <item>CDB Saver</item>
+        <item>CDB Saving</item>
+    </string-array>
+
+    <string-array name="customerTypes">
+        <item>Select</item>
+        <item>Salaried</item>
+        <item>Self Employed</item>
+    </string-array>
+
+    <string-array name="mailTypes">
+        <item>Select</item>
+        <item>Complaint</item>
+        <item>Compliment</item>
+        <item>Review</item>
+        <item>Suggestion</item>
+        <item>Requirement</item>
+    </string-array>
+
+    <string-array name="mailCategory">
+        <item>Select</item>
+        <item>Info</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="mailSubCategory">
+        <item>Select</item>
+        <item>Issue</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="chequeList">
+        <item>Select</item>
+        <item>10009</item>
+        <item>10010</item>
+        <item>10019</item>
+        <item>10021</item>
+        <item>10022</item>
+    </string-array>
+
+    <string-array name="currencyTypes">
+        <item>Select</item>
+        <item>U.S. Dollar | USD</item>
+        <item>European Euro | EUR</item>
+        <item>Swiss Franc | CHF</item>
+        <item>British Pound | GBP</item>
+        <item>Japanese Yen | JPY</item>
+        <item>Canadian Dollar | CAD</item>
+        <item>Sri Lankan rupee | SLR</item>
+    </string-array>
+    <string name="title_activity_apply_account2">ApplyAccount2Activity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_forgot_pw">ForgotPwActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3da2e6</color>
+    <color name="colorPrimaryDark">#02609e</color>
+    <color name="colorAccent">#f12e3f</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="gradientDark">#02609e</color>
+    <color name="gradientLight">#3da2e6</color>
+    <color name="textPrimary">#00315a</color>
+    <color name="buttonPrimary">#f12e3f</color>
+    <color name="spinnerBorder">#757575</color>
+
+</resources>
