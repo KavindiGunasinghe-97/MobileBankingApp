@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_deposits"
+        android:name="com.uee.cdbinet.sidenav.DepositsFragment"
+        android:label="fragment_deposits"
+        tools:layout="@layout/fragment_deposits" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.uee.cdbinet.sidenav.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_my_cheques"
+        android:name="com.uee.cdbinet.sidenav.ChequeManagementFragment"
+        android:label="fragment_cheque_management"
+        tools:layout="@layout/fragment_cheque_management" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.uee.cdbinet.sidenav.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_mailbox"
+        android:name="com.uee.cdbinet.sidenav.MailBoxFragment"
+        android:label="fragment_mail_box"
+        tools:layout="@layout/fragment_mail_box" />
+    <fragment
+        android:id="@+id/nav_accounts"
+        android:name="com.uee.cdbinet.sidenav.AccountStatementFragment"
+        android:label="fragment_account_statement"
+        tools:layout="@layout/fragment_account_statement" />
+    <fragment
+        android:id="@+id/nav_loan_lease"
+        android:name="com.uee.cdbinet.sidenav.LoanLeaseFragment"
+        android:label="fragment_loan_lease"
+        tools:layout="@layout/fragment_loan_lease" />
+
+</navigation>
